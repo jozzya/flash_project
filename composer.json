@@ -69,7 +69,7 @@
     "scripts": {
         "post-create-project-cmd": "rm -r -f .travis.yml .travis-ci",
         "quick-start": [
-            "composer install",
+            "composer install"
         ]
     }
 }
