@@ -55,6 +55,11 @@
         }
     },
     "repositories": {
+        "whoops": {
+            "type": "vcs",
+            "url": "https://git.drupalcode.org/issue/whoops-3185130",
+            "comment": "Added as workaround until there is a D9 version of Whoops"
+        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
