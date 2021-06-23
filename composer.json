@@ -4,7 +4,7 @@
     "description": "Project template for Drupal 9 sites built with the Flash distribution.",
     "license": "apache-2.0",
     "require": {
-        "jozzya/flash": "^1.0.0",
+        "jozzya/flash": "^1.0",
         "cweagans/composer-patches": "^1.6.0",
         "drupal/core-composer-scaffold": "*",
         "oomphinc/composer-installers-extender": "^1.1 || ^2"
