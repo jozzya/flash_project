@@ -2,7 +2,7 @@
     "name": "jozzya/flash_project",
     "type": "project",
     "description": "Project template for Drupal 9 sites built with the Flash distribution.",
-    "license": "OGL-3.0",
+    "license": "apache-2.0",
     "require": {
         "jozzya/flash_core": "~1.0.0",
         "cweagans/composer-patches": "^1.6.0",
