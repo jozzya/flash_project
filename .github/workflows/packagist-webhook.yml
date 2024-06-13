@@ -1,0 +1,17 @@
+name: Packagist Webhook
+
+on:
+  push:
+    branches:
+      - dev-main
+    tags:
+      - '*'
+
+jobs:
+  notify-packagist:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Send POST request to Packagist webhook
+      run: |
+        curl -X POST ${{ secrets.PACKAGIST_WEBHOOK_URL }}
